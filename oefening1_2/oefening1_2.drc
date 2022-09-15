@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sat Mar 01 10:11:25 2014
+
+drc -z oefening1_2.ncd oefening1_2.pcf
+
+DRC detected 0 errors and 0 warnings.

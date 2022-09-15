@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/STUDENTEN/Pieter en Gijs/oefening1_2/oefening1_2.xst" -ofn "C:/STUDENTEN/Pieter en Gijs/oefening1_2/oefening1_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "oefening1_2.ngc" oefening1_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening1_2_map.ncd oefening1_2.ngd oefening1_2.pcf 
+par -w -intstyle ise -ol high -t 1 oefening1_2_map.ncd oefening1_2.ncd oefening1_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening1_2.twx oefening1_2.ncd -o oefening1_2.twr oefening1_2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc oefening1_2.ucf -p xc3s100e-cp132-4 "oefening1_2.ngc" oefening1_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening1_2_map.ncd oefening1_2.ngd oefening1_2.pcf 
+par -w -intstyle ise -ol high -t 1 oefening1_2_map.ncd oefening1_2.ncd oefening1_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening1_2.twx oefening1_2.ncd -o oefening1_2.twr oefening1_2.pcf -ucf oefening1_2.ucf 
+bitgen -intstyle ise -f oefening1_2.ut oefening1_2.ncd 
