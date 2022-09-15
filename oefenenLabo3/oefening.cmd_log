@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "F:/Digitale electronica/oefenenLabo3/oefening.xst" -ofn "F:/Digitale electronica/oefenenLabo3/oefening.syr" 
+xst -intstyle ise -ifn "F:/Digitale electronica/oefenenLabo3/oefening.xst" -ofn "F:/Digitale electronica/oefenenLabo3/oefening.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc3s100e-cp132-4 "oefening.ngc" oefening.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening_map.ncd oefening.ngd oefening.pcf 
+par -w -intstyle ise -ol high -t 1 oefening_map.ncd oefening.ncd oefening.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening.twx oefening.ncd -o oefening.twr oefening.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f oefening.ut oefening.ncd 
