@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "E:/Digitale electronica/labo5oefening1/oefening1.xst" -ofn "E:/Digitale electronica/labo5oefening1/oefening1.syr" 
+xst -intstyle ise -ifn "E:/Digitale electronica/labo5oefening1/oefening1.xst" -ofn "E:/Digitale electronica/labo5oefening1/oefening1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-4 "oefening1.ngc" oefening1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-4 "oefening1.ngc" oefening1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening1_map.ncd oefening1.ngd oefening1.pcf 
+par -w -intstyle ise -ol high -t 1 oefening1_map.ncd oefening1.ncd oefening1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening1.twx oefening1.ncd -o oefening1.twr oefening1.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f oefening1.ut oefening1.ncd 
+xst -intstyle ise -ifn "E:/Digitale electronica/labo5oefening1/oefening1.xst" -ofn "E:/Digitale electronica/labo5oefening1/oefening1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-4 "oefening1.ngc" oefening1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening1_map.ncd oefening1.ngd oefening1.pcf 
+par -w -intstyle ise -ol high -t 1 oefening1_map.ncd oefening1.ncd oefening1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening1.twx oefening1.ncd -o oefening1.twr oefening1.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f oefening1.ut oefening1.ncd 
+xst -intstyle ise -ifn "E:/Digitale electronica/labo5oefening1/oefening1.xst" -ofn "E:/Digitale electronica/labo5oefening1/oefening1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-4 "oefening1.ngc" oefening1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening1_map.ncd oefening1.ngd oefening1.pcf 
+par -w -intstyle ise -ol high -t 1 oefening1_map.ncd oefening1.ncd oefening1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening1.twx oefening1.ncd -o oefening1.twr oefening1.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f oefening1.ut oefening1.ncd 
+xst -intstyle ise -ifn "E:/Digitale electronica/labo5oefening1/oefening1.xst" -ofn "E:/Digitale electronica/labo5oefening1/oefening1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-4 "oefening1.ngc" oefening1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o oefening1_map.ncd oefening1.ngd oefening1.pcf 
+par -w -intstyle ise -ol high -t 1 oefening1_map.ncd oefening1.ncd oefening1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml oefening1.twx oefening1.ncd -o oefening1.twr oefening1.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f oefening1.ut oefening1.ncd 
