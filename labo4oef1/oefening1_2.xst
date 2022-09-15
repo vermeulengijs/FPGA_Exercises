@@ -1,0 +1,5 @@
+set -tmpdir "C:/STUDENTEN/Pieter en Gijs/labo4oef1/xst/projnav.tmp"
+set -xsthdpdir "C:/STUDENTEN/Pieter en Gijs/labo4oef1/xst"
+elaborate
+-ifn oefening1_2.prj
+-ifmt mixed

@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sat Mar 22 09:40:00 2014
+
+drc -z labo4TOP.ncd labo4TOP.pcf
+
+DRC detected 0 errors and 0 warnings.

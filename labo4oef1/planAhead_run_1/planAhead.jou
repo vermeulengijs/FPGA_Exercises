@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2
+# Build 131561 by hdbuild on Thu Jun 16 17:01:57 PDT 2011
+# Start of session at: Sat Mar 22 09:33:43 2014
+# Process ID: 3228
+# Log file: C:/STUDENTEN/Pieter en Gijs/labo4oef1/planAhead_run_1/planAhead.log
+# Journal file: C:/STUDENTEN/Pieter en Gijs/labo4oef1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/STUDENTEN/Pieter en Gijs/labo4oef1/pa.fromNetlist.tcl}
+exit
+stop_gui

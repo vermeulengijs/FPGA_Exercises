@@ -1,0 +1,4 @@
+vhdl work "../oefening1_2/oefening1_2.vhd"
+vhdl work "../oefening1xor/oefeningxor.vhd"
+vhdl work "../labo3oefening1/labo3oefening1.vhd"
+vhdl work "labo4TOP.vhd"
